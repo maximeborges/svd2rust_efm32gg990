@@ -1,0 +1,21 @@
+[package]
+authors = ["Maxime Borges <contact@maximeborg.es>"]
+description = "Peripheral access API for EFM32GG990 microcontrollers"
+documentation = "https://docs.rs/efm32gg990"
+keywords = ["no-std", "arm", "cortex-m", "efm32"]
+license = "MIT"
+name = "efm32gg990"
+repository = "https://github.com/maximeborges/efm32gg990"
+version = "0.1.0"
+
+[dependencies]
+bare-metal = "0.1.1"
+cortex-m = "0.4.3"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.3.13"
+
+[features]
+rt = ["cortex-m-rt"]
