@@ -5,8 +5,8 @@ documentation = "https://docs.rs/efm32gg990"
 keywords = ["no-std", "arm", "cortex-m", "efm32"]
 license = "MIT"
 name = "efm32gg990"
-repository = "https://github.com/maximeborges/efm32gg990"
-version = "0.1.0"
+repository = "https://github.com/maximeborges/svd2rust_efm32gg990"
+version = "0.1.1"
 
 [dependencies]
 bare-metal = "0.1.1"
