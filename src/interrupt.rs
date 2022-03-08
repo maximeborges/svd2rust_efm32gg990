@@ -53,7 +53,6 @@ extern "C" {
     fn EBI();
     fn EMU();
 }
-#[allow(private_no_mangle_statics)]
 #[cfg(feature = "rt")]
 #[doc(hidden)]
 #[link_section = ".vector_table.interrupts"]
