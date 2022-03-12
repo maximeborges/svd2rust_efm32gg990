@@ -5,7 +5,6 @@
 #![deny(missing_docs)]
 #![deny(warnings)]
 #![allow(non_camel_case_types)]
-#![feature(const_fn)]
 #![no_std]
 extern crate bare_metal;
 extern crate cortex_m;
