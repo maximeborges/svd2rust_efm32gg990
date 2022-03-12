@@ -2,7 +2,7 @@
 
 > Peripheral access API for EFM32GG990 microcontroller
 
-Generated using [svd2rust] from [SVD file] (included in Device Family Pack).
+Generated using [svd2rust] version v0.12.0 from [SVD file] (included in Device Family Pack).
 
 [svd2rust]: https://github.com/japaric/svd2rust
 [SVD file]: https://www.keil.com/dd2/siliconlaboratories/efm32gg990f1024/
